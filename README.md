@@ -57,6 +57,7 @@ make && make install
 vim /usr/local/webserver/nginx/conf/nginx.conf
 
 #配置反向代理主要是nginx.conf文件配置
+
 #普通的反向代理  每次多监听一个端口需要增加一个server代码块，server需要在http代码块下面
 
     server {
